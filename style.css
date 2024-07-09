@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 1000px;
+     background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url(/asset/backBintang.jpg);
+     color: #fff;
+}
+
+
+/* background */
+
+/* background */
+
+
+/* navbar */
+
+nav {
+    /* background-color: #B1AFFF; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 30px 30px;
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    margin: 20px 20px;
+    font-size: 1.2em;
+    font-family: "Baskervville SC", serif;
+    color: #fff;
+}
+
+li a {
+    font-family: "Baskervville SC", serif;
+    margin: 1px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+a:hover {
+    color: #ddd;
+    border: 1px solid #fff;
+    padding: 5px 6px;
+    border-radius: 6px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+}
+
+
+/* akhir navbar */
+
+/* header */
+
+header {
+   
+    height: 100vh;
+    width: 100%;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.container-header {
+    position: absolute;
+}
+.tilte {
+    color: #fff;
+    margin: 20% 200px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid snow;
+    border-radius: 20px;
+}
+
+.tilte h1 {
+   font-family: "Baskervville SC", serif;
+   font-size: 3em;
+   letter-spacing: 3px;
+   margin: 3px 10px;
+}
+
+.tilte p {
+    margin: 3px 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.foto {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 920px;
+    top: 120px;
+    /* padding: 20px; */
+    text-align: center;
+    color: #4d4b4b;
+    font-family: "Ga Maamli", sans-serif;
+}
+.foto h2 {
+    right: 10rem;
+    color: #fff;
+}
+.foto p {
+    margin: 4px;
+    color: #fff;
+}
+
+.foto img {
+    width: 400px;
+    height: 400px;
+    margin: 20px 1pt;
+    border-radius: 50%;
+}
+
+
+
+/* akhir header */
+
+/* aboukt me */
+
+.container-about {
+    width: 100%;
+    height: 100vh;
+}
+
+.tille-2 {
+    text-align: center;
+    font-size: 2em;
+}
+.tille-2 h2 {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 200;
+}
+.tille-2 span {
+    font-family: "Baskervville SC", serif;
+    font-weight: 300;
+}
+
+.foto-2 {
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+    /* background-color: yellow; */
+    margin: 100px 200px;
+}
+
+.foto-2 img {
+    width: 300px;
+    height: 400px;
+    padding: 15px 16px;
+    margin: 10px auto;
+}
+
+.biodata {
+    width: 40rem;
+    height: 20rem;
+    margin: 40rem 60rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+    border: 2px solid #ddd;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+.data-diri {
+    width: 40rem;
+    height: 20rem;
+    margin: -45rem 60rem;
+}
+
+.data-diri h2 {
+    padding: 10px;
+    font-size: 3em;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 200;
+}
+.data-diri  p {
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.bio {
+    border: 1px solid #ddd;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 4pt;
+}
+.bio h3 {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 100;
+    margin: 3px;
+}
+.bio p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+/* aboukt me */
+
+/* projeck */
+
+.container-projeck {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.tille-3 {
+    text-align: center;
+    font-size: 2em;
+}
+.tille-3 h2 {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 200;
+}
+.tille-3 span {
+    font-family: "Baskervville SC", serif;
+    font-weight: 300;
+}
+
+.card {
+    width: 400px;
+    height: 530px;                                                                          
+    background-color: #797979;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12pt;
+    text-align: center;
+}
+
+.img-projeck img {
+    width: 300px;
+    height: 200px;
+    margin: 60px 50px;
+    border-radius: 10pt;
+    box-shadow: 5px 5px 9px #d62424;
+}
+
+.telle-3 {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+    font-family: "Roboto", sans-serif;
+}
+.telle-3 p {
+    font-family: "Baskervville SC", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2pt;
+}
+.telle-3 h3 {
+    padding-bottom: 10px;
+}
+
+/* projeck */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

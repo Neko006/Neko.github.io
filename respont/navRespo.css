@@ -1,0 +1,112 @@
+@media screen and (max-width: 720px) {
+nav {
+  flex-wrap: wrap;
+  height: auto;
+  z-index: 3;
+}
+
+nav ul {
+   flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+ nav ul.hidden {
+    display: none;
+  }
+   
+
+  .menu-icon {
+    display: flex;
+    margin: 20px 40px;
+  }
+
+
+
+  /* headear */
+
+.tilte {
+  margin: 300px auto;
+  width: 300px;
+  height: 300px;
+}
+
+.foto  {
+  left: -4px;
+  width: 400px;
+  top: -10px;
+  height: 350px;
+  margin: 10px ;
+}
+
+
+.foto img {
+  width: 100px;
+  height: 100px;
+}
+
+
+  /* headear */
+
+  /* abouat */
+
+    .foto-2 img {
+      width: 200px;
+      height: 300px;
+      margin: 10px 0rem;
+
+  }
+
+  .foto-2 {
+      width: 400px;
+      height: 500px;
+      margin: 30px;
+      display: flex;
+      margin: 100px;
+      padding-top: -100px;
+  }
+
+
+  .biodata {
+    margin: 50rem 5rem;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-about {
+    height: 400px;
+  }
+  
+  .telle-2 {
+    margin-top: -300px;
+  }
+  /* abouat */
+
+
+  /* projeck */
+
+  .container-projeck {
+    padding-top: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 40px;
+  }
+
+
+  .card {
+    width: 400px;
+    height: 400px;
+    margin: 20px 30px;
+  }
+
+  .img-projeck img {
+    width: 200pt;
+    height: 100px;
+  }
+  /* projeck */
+}
