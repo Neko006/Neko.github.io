@@ -41,8 +41,9 @@ nav ul {
 
 
 .foto img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: .100rem;
 }
 
 
@@ -68,7 +69,9 @@ nav ul {
 
 
   .biodata {
-    margin: 50rem 5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50rem 4rem;
     gap: 10px;
     width: 300px;
     height: 300px;
@@ -81,32 +84,42 @@ nav ul {
   }
   
   .telle-2 {
-    margin-top: -300px;
+    margin-bottom: 300px;
   }
   /* abouat */
 
 
   /* projeck */
 
-  .container-projeck {
-    padding-top: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-right: 40px;
+  .tille-3 {
+    padding-top: 40rem;
   }
 
-
+  .container-projeck{
+    grid-template-columns: auto;
+  }
   .card {
-    width: 400px;
+    max-width: 400px;
     height: 400px;
     margin: 20px 30px;
   }
 
-  .img-projeck img {
-    width: 200pt;
-    height: 100px;
-  }
+
   /* projeck */
+
+
+  /* my skill */
+.container-skill {
+  grid-template-columns: auto;
+  align-items: center;
+  margin: .100rem;
+}
+
+.package {
+  display: grid;
+  width: 200px;
+  margin-right: 20rem;
+}
+
+/* my skill */
 }

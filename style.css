@@ -49,11 +49,10 @@ li a {
     letter-spacing: .2px;
 }
 
-a:hover {
+nav a:hover {
     color: #ddd;
-    border: 1px solid #fff;
-    padding: 5px 6px;
-    border-radius: 6px;
+    border-bottom: 1px solid #fff;
+
 }
 
 .menu-icon {
@@ -85,8 +84,6 @@ header {
     margin: 20% 200px;
     width: 400px;
     height: 200px;
-    border: 1px solid snow;
-    border-radius: 20px;
 }
 
 .tilte h1 {
@@ -107,7 +104,6 @@ header {
     position: relative;
     left: 920px;
     top: 120px;
-    /* padding: 20px; */
     text-align: center;
     color: #4d4b4b;
     font-family: "Ga Maamli", sans-serif;
@@ -225,18 +221,75 @@ header {
 
 /* projeck */
 
-.container-projeck {
-    width: 100%;
-    height: 100vh;
+ .container-projeck {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: space-evenly;
+ 
 }
 
-.container-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.image img {
     width: 100%;
-    height: 80vh;
-    flex-wrap: wrap;
+    object-fit: cover;
+    height: 150px;
+} 
+
+.card {
+    max-width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: .5em;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07) ;
+    color: #4d4b4b;
+    margin: 10pt 20pt;
+}
+
+.card a {
+    text-decoration: none;
+
+}
+
+.contet   {
+    color: black;
+    padding: 15px;
+}
+
+.tille-4 {
+    color: #111827;
+    font-size: 1.200rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    font-family: "Ga Maamli", sans-serif;
+}
+
+.docs {
+    margin-top: 1.5rem;
+    color: #6B7280;
+    line-height: 1.40rem;
+    font-size: .875rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.200rem;
+    align-items: center;
+    gap: .25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px; 
+}
+
+.action span {
+    transition: .3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
 }
 
 .tille-3 {
@@ -252,43 +305,73 @@ header {
     font-weight: 300;
 }
 
-.card {
-    width: 400px;
-    height: 530px;                                                                          
-    background-color: #797979;
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 12pt;
-    text-align: center;
-}
-
-.img-projeck img {
-    width: 300px;
-    height: 200px;
-    margin: 60px 50px;
-    border-radius: 10pt;
-    box-shadow: 5px 5px 9px #d62424;
-}
-
-.telle-3 {
-    width: 200px;
-    font-size: 20px;
-    text-align: center;
-    margin: 10px auto;
-    font-family: "Roboto", sans-serif;
-}
-.telle-3 p {
-    font-family: "Baskervville SC", sans-serif;
-    font-weight: 600;
-    letter-spacing: 2pt;
-}
-.telle-3 h3 {
-    padding-bottom: 10px;
-}
 
 /* projeck */
 
+/* my skill */
+
+.tille-5 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    padding-top: 20rem;
+}
+.tille-5 h2 {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 200;
+}
+.tille-5 span {
+    font-family: "Baskervville SC", serif;
+    font-weight: 300;
+}
+
+.container-skill {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-evenly;
+}
+
+.package {
+  margin: 10rem ;
+  width: 200px;
+  height: 254px;
+  background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.package:hover {
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+}
+
+.package2 {
+  width: 200px;
+  height: 254px;
+  background-color: #1d1724;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  padding: 15px;
+  cursor: pointer;
+}
+
+.package2:hover {
+  transform: scale(0.98);
+  border-radius: 18px;
+}
+
+.text {
+  color: white;
+  font-size: 17px;
+}
+
+.img-icon img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding-right:  3rem;
+}
+/* my skill */
 
 
 
