@@ -241,7 +241,7 @@ header {
     border-radius: .5em;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07) ;
     color: #4d4b4b;
-    margin: 10pt 20pt;
+    margin: 50pt 20pt;
 }
 
 .card a {
@@ -374,7 +374,57 @@ header {
 /* my skill */
 
 
+/* contact me */
 
+.container-contact {
+    width: 100%;
+    height: 100vh;
+    padding: 20rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.data-conta {
+    text-align: center;
+}
+
+.data-alamat {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 2pt solid  azure;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: self-start;
+    padding: 12pt;
+    line-height: 15pt;
+    border-radius: 12pt;
+}
+
+.input-data {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 200px;
+    line-height: 3rem;
+    padding: 12pt;
+}
+
+.input-data input {
+    padding: 10pt;
+    font-size: 12pt;
+}
+
+.kirim {
+    background-color: aqua;
+    width: 50pt;
+    height: 60px;
+    margin: 2rem;
+}
+
+/* akhir contact me */
 
 
 
